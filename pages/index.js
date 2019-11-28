@@ -5,8 +5,7 @@ const StyledContainer = styled.div`
   display: flex;
   height: 100vh;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  margin: 2rem 8rem
 `;
 
 const Home = () => (
