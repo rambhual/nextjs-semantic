@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Button } from "semantic-ui-react";
+import { Title } from "../components/title/Title.styled";
 
 const StyledContainer = styled.div`
     display: flex;
@@ -8,21 +8,10 @@ const StyledContainer = styled.div`
     margin: 2rem 8rem;
 `;
 
-const MyButton = styled.button`
-    font-size: 1rem;
-    color: black;
-    background-color: lightblue;
-    text-transform: uppercase;
-`;
 const Home = () => (
     <StyledContainer>
         <div>
-            <h1>Next.js + Semantic UI!</h1>
-        </div>
-        <div>
-            <MyButton>Click me!</MyButton>
-            <Button primary>Primary</Button>
-            <Button secondary>Secondary</Button>
+            <Title>Next.js + Semantic UI!</Title>
         </div>
     </StyledContainer>
 );
