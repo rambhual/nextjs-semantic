@@ -1,9 +1,3 @@
-import React from 'react'
-
 export const Header = () => {
-    return (
-        <div>
-            
-        </div>
-    )
-}
+    return <div>This is header page</div>;
+};
